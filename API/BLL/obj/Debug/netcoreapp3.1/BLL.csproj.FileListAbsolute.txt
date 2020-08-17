@@ -1,0 +1,9 @@
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
