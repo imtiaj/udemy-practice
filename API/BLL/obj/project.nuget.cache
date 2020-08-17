@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K7+Fsf7jp4o1wbJlQH0HezyWVqfWc050dkjx/8AMwuQHds8/wYUmWq16ysG8qAfsdrCpU+y3CumyIE7ne3dSXw==",
+  "dgSpecHash": "ML9FW9hpBZASdNRAg+fOIac0thMem/eIgiNyr36MCbjI0vN7+zlNB/L/BH5UcSlZIwne+KJm8Rg/k6pHK2EdIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj",
+  "projectFilePath": "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
