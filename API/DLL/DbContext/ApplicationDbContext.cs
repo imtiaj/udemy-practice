@@ -14,5 +14,6 @@ namespace DLL.DbContext
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<EmployeeInfo> EmployeeInfos { get; set; }
     }
 }
