@@ -1,4 +1,6 @@
-﻿using DLL.Models;
+﻿using BLL.Request;
+using BLL.Services;
+using DLL.Models;
 using DLL.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,30 +12,30 @@ namespace API.Controllers
 {
     public class EmployeeController : ApiBaseController
     {
-        private readonly IEmployeeInfoRepository _employeeInfoRepository;
+        private readonly IEmployeeService _employeeService;
 
-        public EmployeeController(IEmployeeInfoRepository employeeInfoRepository)
+        public EmployeeController(IEmployeeService employeeService)
         {
-            _employeeInfoRepository = employeeInfoRepository;
+            _employeeService = employeeService;
         }
 
         [HttpGet]
-        public IActionResult GetAllEmployee()
+        public async Task<IActionResult> GetAllEmployee()
         {
-            return Ok(_employeeInfoRepository.GetAllEmployee());
+            return Ok(await _employeeService.GetAllEmployeeAsync());
         }
 
         [HttpGet]
         [Route("{email}")]
-        public IActionResult GetAEmployee(string email)
+        public async Task<IActionResult> GetAEmployee(string email)
         {
-            return Ok(_employeeInfoRepository.GetAEmployee(email));
+            return Ok(await _employeeService.GetAEmployeeAsync(email));
         }
 
         [HttpPost]
-        public IActionResult AddEmployee(EmployeeInfo employeeInfo)
+        public async Task<IActionResult> AddEmployee(EmployeeAddRequest employeeInfo)
         {
-            return Ok(_employeeInfoRepository.AddEmployeeInfo(employeeInfo));
+            return Ok(await _employeeService.AddEmployeeInfoAsync(employeeInfo));
         }
     }
 }

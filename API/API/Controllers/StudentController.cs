@@ -18,22 +18,22 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAll()
+        public async Task<ActionResult> GetAll()
         {
-            return Ok(studentRepository.GetAllStudent());
+            return Ok(await studentRepository.GetAllStudentAsync());
         }
 
         [HttpGet]
         [Route("{email}")]
-        public ActionResult GetAStudent(string email)
+        public async Task<ActionResult> GetAStudent(string email)
         {
-            return Ok(studentRepository.GetAStudent(email));
+            return Ok(await studentRepository.GetAStudentAsync(email));
         }
 
         [HttpPost]
-        public ActionResult Insert(Student aStudent)
+        public async Task<ActionResult> Insert(Student aStudent)
         {
-            return Ok(studentRepository.AddStudent(aStudent));
+            return Ok(await studentRepository.AddStudentAsync(aStudent));
         }
         
         //[HttpPut("{email}")]

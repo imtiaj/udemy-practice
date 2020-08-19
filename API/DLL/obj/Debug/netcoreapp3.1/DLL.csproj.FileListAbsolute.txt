@@ -21,3 +21,4 @@ E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreC
 E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.dll
 E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
 E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache

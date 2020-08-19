@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL;
 using DLL.DbContext;
 using DLL.Repository;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -29,7 +31,8 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMvcCore();
+            services.AddMvcCore().AddFluentValidation();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CORE TUT API", Version = "v1" });
@@ -45,7 +48,15 @@ namespace API
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddTransient<IStudentRepository, StudentRepository>();
+            GetAllDependency(services);
+
+            
+        }
+
+        private void GetAllDependency(IServiceCollection services)
+        { 
+            DLLDependency.ALLDependency(services);
+            BLLDependency.ALLDependency(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

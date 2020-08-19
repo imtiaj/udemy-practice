@@ -1,17 +1,21 @@
 ﻿using DLL.DbContext;
 using DLL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DLL.Repository
 {
     public interface IEmployeeInfoRepository
     {
-        List<EmployeeInfo> GetAllEmployee();
-        EmployeeInfo GetAEmployee(string email);
-        EmployeeInfo AddEmployeeInfo(EmployeeInfo employeeInfo);        
+        Task<List<EmployeeInfo>> GetAllEmployeeAsync();
+        Task<EmployeeInfo> GetAEmployeeAsync(string email);
+        Task<EmployeeInfo> AddEmployeeInfoAsync(EmployeeInfo employeeInfo);
+        Task<bool> IsNIDExist(string nationalId);
+        Task<bool> IsEmailExist(string email);
     }
 
     public class EmployeeInfoRepository : IEmployeeInfoRepository
@@ -23,22 +27,42 @@ namespace DLL.Repository
             _dbContext = dbContext;
         }
 
-        public EmployeeInfo AddEmployeeInfo(EmployeeInfo employeeInfo)
+        public async Task<EmployeeInfo> AddEmployeeInfoAsync(EmployeeInfo employeeInfo)
         {
-            _dbContext.EmployeeInfos.Add(employeeInfo);
-            _dbContext.SaveChanges();
+            await _dbContext.EmployeeInfos.AddAsync(employeeInfo);
+            await _dbContext.SaveChangesAsync();
             return employeeInfo;
         }
 
-        public EmployeeInfo GetAEmployee(string email)
+        public async Task<EmployeeInfo> GetAEmployeeAsync(string email)
         {
-            var aEmployee = _dbContext.EmployeeInfos.FirstOrDefault(e => e.Email == email);
+            var aEmployee = await _dbContext.EmployeeInfos.FirstOrDefaultAsync(e => e.Email == email);
             return aEmployee;
         }
 
-        public List<EmployeeInfo> GetAllEmployee()
+        public async Task<List<EmployeeInfo>> GetAllEmployeeAsync()
         {
-            return _dbContext.EmployeeInfos.ToList();
+            return await _dbContext.EmployeeInfos.ToListAsync();
+        }
+
+        public async Task<bool> IsEmailExist(string email)
+        {
+            var empEmail = await _dbContext.EmployeeInfos.FirstOrDefaultAsync(e => e.Email == email);
+            if(empEmail != null)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public async Task<bool> IsNIDExist(string nationalId)
+        {
+            var empNid = await _dbContext.EmployeeInfos.FirstOrDefaultAsync(e => e.NationalID == nationalId);
+            if (empNid != null)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

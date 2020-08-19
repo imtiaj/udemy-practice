@@ -136,3 +136,8 @@ E:\Core Practice\udemy-practice\API\API\obj\Debug\netcoreapp3.1\staticwebassets\
 E:\Core Practice\udemy-practice\API\API\obj\Debug\netcoreapp3.1\API.dll
 E:\Core Practice\udemy-practice\API\API\obj\Debug\netcoreapp3.1\API.pdb
 E:\Core Practice\udemy-practice\API\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\Core Practice\udemy-practice\API\API\bin\Debug\netcoreapp3.1\BLL.dll
+E:\Core Practice\udemy-practice\API\API\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\Core Practice\udemy-practice\API\API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+E:\Core Practice\udemy-practice\API\API\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+E:\Core Practice\udemy-practice\API\API\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

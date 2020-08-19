@@ -1,17 +1,19 @@
 ﻿using DLL.DbContext;
 using DLL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DLL.Repository
 {
     public interface IStudentRepository
     {
-        Student AddStudent(Student student);
-        List<Student> GetAllStudent();
-        Student GetAStudent(string email);
+        Task<Student> AddStudentAsync(Student student);
+        Task<List<Student>> GetAllStudentAsync();
+        Task<Student> GetAStudentAsync(string email);
     }
 
     public class StudentRepository : IStudentRepository
@@ -23,21 +25,21 @@ namespace DLL.Repository
             _context = context;
         }
 
-        public Student AddStudent(Student student)
+        public async Task<Student> AddStudentAsync(Student student)
         {
-            _context.Students.Add(student);
-            _context.SaveChanges();
+            await _context.Students.AddAsync(student);
+            await _context.SaveChangesAsync();
             return student;
         }
 
-        public List<Student> GetAllStudent()
+        public async Task<List<Student>> GetAllStudentAsync()
         {
-            return _context.Students.ToList();
+            return await _context.Students.ToListAsync();
         }
 
-        public Student GetAStudent(string email)
+        public async Task<Student> GetAStudentAsync(string email)
         {
-            var student = _context.Students.FirstOrDefault(x => x.Email == email);
+            var student = await _context.Students.FirstOrDefaultAsync(x => x.Email == email);
             return student;
         }
     }
