@@ -42,6 +42,7 @@ namespace DLL.Repository
 
         public async Task<List<EmployeeInfo>> GetAllEmployeeAsync()
         {
+            var empinf = await _dbContext.EmployeeInfos.ToListAsync();
             return await _dbContext.EmployeeInfos.ToListAsync();
         }
 
