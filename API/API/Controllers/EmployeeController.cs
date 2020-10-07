@@ -37,7 +37,6 @@ namespace API.Controllers
         {
             return Ok(await _employeeService.AddEmployeeInfoAsync(employeeInfo));
         }
-<<<<<<< HEAD
 
         //[HttpPut("{email}")]
         //public async Task<ActionResult> UpdateEmployee(string email, EmployeeUpdateRequest updateRequest)
@@ -50,8 +49,5 @@ namespace API.Controllers
         {
             return Ok(await _employeeService.DeleteEmployee(email));
         }
-=======
-        
->>>>>>> 772da065a6a917639f0162ff4bf7caef8159f0f9
     }
 }

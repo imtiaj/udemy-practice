@@ -1,43 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/BLL.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/BLL.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/BLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/BLL.csproj",
-        "packagesPath": "/Users/asifnewaz/.nuget/packages/",
-        "outputPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/asifnewaz/.config/NuGet/NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj": {
                 "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj"
               },
               "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj": {
                 "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj"
-=======
-              "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/DLL.csproj": {
-                "projectPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/DLL.csproj"
->>>>>>> 772da065a6a917639f0162ff4bf7caef8159f0f9
               }
             }
           }
@@ -71,33 +68,38 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/DLL.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/DLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj",
         "projectName": "DLL",
-        "projectPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/DLL.csproj",
-        "packagesPath": "/Users/asifnewaz/.nuget/packages/",
-        "outputPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/asifnewaz/.config/NuGet/NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
