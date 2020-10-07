@@ -1,22 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';    
+// import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
 import { EmployeeInfoDetailComponent } from './employee-info-detail/employee-info-detail.component';
-import { EmployeeBasicInfoComponent } from './employee-info-detail/employee-basic-info/employee-basic-info.component';
-import { EmployeeBasicInfoDetailListComponent } from './employee-info-detail/employee-basic-info-detail-list/employee-basic-info-detail-list.component';
+import { EmployeeBasicInfoService } from './shared/employee-basic-info.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeInfoDetailComponent,
-    EmployeeBasicInfoComponent,
-    EmployeeBasicInfoDetailListComponent
+    EmployeeInfoDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    //BrowserAnimationsModule,  
+    // ToastrModule.forRoot() 
   ],
-  providers: [],
+  providers: [EmployeeBasicInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

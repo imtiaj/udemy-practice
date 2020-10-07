@@ -14,7 +14,9 @@ C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.d
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\DLL.dll
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\Utility.dll
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
+C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\Utility.pdb
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache

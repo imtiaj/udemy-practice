@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace API.Controllers
-{
+{    
     public class EmployeeController : ApiBaseController
     {
         private readonly IEmployeeService _employeeService;
@@ -36,6 +36,18 @@ namespace API.Controllers
         public async Task<IActionResult> AddEmployee(EmployeeAddRequest employeeInfo)
         {
             return Ok(await _employeeService.AddEmployeeInfoAsync(employeeInfo));
+        }
+
+        //[HttpPut("{email}")]
+        //public async Task<ActionResult> UpdateEmployee(string email, EmployeeUpdateRequest updateRequest)
+        //{
+        //    return Ok(await _employeeService.UpdateEmployeeAsync(email, updateRequest));
+        //}
+
+        [HttpDelete("{email}")]
+        public async Task<ActionResult> DeleteEmployeeBasicProfile(string email)
+        {
+            return Ok(await _employeeService.DeleteEmployee(email));
         }
     }
 }

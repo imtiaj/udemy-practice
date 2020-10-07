@@ -29,9 +29,9 @@ namespace BLL.Request
             RuleFor(x => x.EmployeeID).NotNull();
             RuleFor(x => x.FirstName).Length(0, 30).NotNull();
             RuleFor(x => x.LastName).Length(0, 30).NotNull();
-            RuleFor(x => x.DateOfBirth).NotNull();
+            // RuleFor(x => x.DateOfBirth).NotNull();
             RuleFor(x => x.Email).EmailAddress().NotNull().NotEmpty().MustAsync(IsEmailExist).WithMessage("Email already exist");
-            RuleFor(x => x.Gender).NotNull();
+            // RuleFor(x => x.Gender).NotNull();
             RuleFor(x => x.NationalID).NotNull().NotEmpty().MustAsync(IsNIDExist).WithMessage("NID Already exist");
             this.serviceProvider = serviceProvider;
         }
@@ -40,7 +40,7 @@ namespace BLL.Request
         {
             if (string.IsNullOrWhiteSpace(NationalID))
             {
-                return false;
+                return true;
             }
 
             var empService = serviceProvider.GetRequiredService<IEmployeeService>();
@@ -51,7 +51,7 @@ namespace BLL.Request
         {
             if (string.IsNullOrWhiteSpace(Email))
             {
-                return false;
+                return true;
             }
 
             var empService = serviceProvider.GetRequiredService<IEmployeeService>();

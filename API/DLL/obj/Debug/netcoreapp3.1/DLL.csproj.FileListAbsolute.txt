@@ -15,10 +15,10 @@ C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.r
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.dll
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
+C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.dll
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
 C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache
