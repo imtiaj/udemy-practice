@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{3B05AFFB-1FE2-406C-9BEF-FAC2EA66905D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BLL/Request/EmployeeAddRequest.cs">
+    <Files>
+      <File FileName="API/Controllers/UpiCardEnrollmentController.cs" Line="22" Column="96" />
+      <File FileName="DLL/RequestResponse/CardEnrollmentRequestModel.cs" Line="23" Column="13" />
+      <File FileName="DLL/Models/CardEnrollmentModel.cs" />
+      <File FileName="BLL/Request/EmployeeAddRequest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="API" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="BLL" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Request" expanded="True">
+                <Node name="EmployeeAddRequest.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DLL" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="RequestResponse" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

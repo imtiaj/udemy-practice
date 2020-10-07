@@ -1,23 +1,35 @@
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.dll
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.dll
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
-C:\Users\DELL\source\repos\PracticeProject\API\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache
-E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
-E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
-E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
-E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.dll
-E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.dll
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
-E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/bin/Debug/netcoreapp3.1/DLL.deps.json
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.json
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.dev.json
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/bin/Debug/netcoreapp3.1/DLL.dll
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/bin/Debug/netcoreapp3.1/DLL.pdb
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.CoreCompileInputs.cache
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfoInputs.cache
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfo.cs
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.dll
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.pdb
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.genruntimeconfig.cache
+C:/Users/DELL/source/repos/PracticeProject/API/DLL/obj/Debug/netcoreapp3.1/DLL.csprojAssemblyReference.cache
+E:/Core Practice/udemy-practice/API/DLL/bin/Debug/netcoreapp3.1/DLL.deps.json
+E:/Core Practice/udemy-practice/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.json
+E:/Core Practice/udemy-practice/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.dev.json
+E:/Core Practice/udemy-practice/API/DLL/bin/Debug/netcoreapp3.1/DLL.dll
+E:/Core Practice/udemy-practice/API/DLL/bin/Debug/netcoreapp3.1/DLL.pdb
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfoInputs.cache
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfo.cs
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.CoreCompileInputs.cache
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.dll
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.pdb
+E:/Core Practice/udemy-practice/API/DLL/obj/Debug/netcoreapp3.1/DLL.genruntimeconfig.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/bin/Debug/netcoreapp3.1/DLL.deps.json
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.json
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.dev.json
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/bin/Debug/netcoreapp3.1/DLL.dll
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/bin/Debug/netcoreapp3.1/DLL.pdb
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.csprojAssemblyReference.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfoInputs.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfo.cs
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.CoreCompileInputs.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.dll
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.pdb
+/Users/asifnewaz/Project/DotNet/FromGit/API/DLL/obj/Debug/netcoreapp3.1/DLL.genruntimeconfig.cache

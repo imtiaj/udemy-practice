@@ -1,24 +1,36 @@
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\DLL.dll
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.dll
-C:\Users\DELL\source\repos\PracticeProject\API\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
-E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
-E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
-E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
-E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\DLL.dll
-E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.dll
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/bin/Debug/netcoreapp3.1/BLL.deps.json
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/bin/Debug/netcoreapp3.1/BLL.dll
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/bin/Debug/netcoreapp3.1/BLL.pdb
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/bin/Debug/netcoreapp3.1/DLL.dll
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/bin/Debug/netcoreapp3.1/DLL.pdb
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.csprojAssemblyReference.cache
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CoreCompileInputs.cache
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfoInputs.cache
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfo.cs
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CopyComplete
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.dll
+C:/Users/DELL/source/repos/PracticeProject/API/BLL/obj/Debug/netcoreapp3.1/BLL.pdb
+E:/Core Practice/udemy-practice/API/BLL/bin/Debug/netcoreapp3.1/BLL.deps.json
+E:/Core Practice/udemy-practice/API/BLL/bin/Debug/netcoreapp3.1/BLL.dll
+E:/Core Practice/udemy-practice/API/BLL/bin/Debug/netcoreapp3.1/BLL.pdb
+E:/Core Practice/udemy-practice/API/BLL/bin/Debug/netcoreapp3.1/DLL.dll
+E:/Core Practice/udemy-practice/API/BLL/bin/Debug/netcoreapp3.1/DLL.pdb
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.csprojAssemblyReference.cache
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfoInputs.cache
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfo.cs
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CoreCompileInputs.cache
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CopyComplete
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.dll
+E:/Core Practice/udemy-practice/API/BLL/obj/Debug/netcoreapp3.1/BLL.pdb
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/bin/Debug/netcoreapp3.1/BLL.deps.json
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/bin/Debug/netcoreapp3.1/BLL.dll
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/bin/Debug/netcoreapp3.1/BLL.pdb
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/bin/Debug/netcoreapp3.1/DLL.dll
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/bin/Debug/netcoreapp3.1/DLL.pdb
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.csprojAssemblyReference.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfoInputs.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfo.cs
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CoreCompileInputs.cache
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CopyComplete
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.dll
+/Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.pdb
