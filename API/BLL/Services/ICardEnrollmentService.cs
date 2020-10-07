@@ -1,4 +1,5 @@
-﻿using DLL.Models;
+﻿using BLL.RequestResponse;
+using DLL.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,15 +10,15 @@ namespace BLL.Services
 {
     public interface ICardEnrollmentService
     {
-        Task<CardEnrollmentModel> cardEnrollmentProcess(CardEnrollmentModel cardEnrollmentModel);
+        Task<CardEnrollmentRequestModel> cardEnrollmentProcess(CardEnrollmentRequestModel cardEnrollmentModel);
     }
 
     public class CardEnrollmentService : ICardEnrollmentService
     {
-        public async Task<CardEnrollmentModel> cardEnrollmentProcess(CardEnrollmentModel cardEnrollmentModel)
+        public async Task<CardEnrollmentRequestModel> cardEnrollmentProcess(CardEnrollmentRequestModel cardEnrollmentModel)
         {
             var isValidate = this.validateCardData(cardEnrollmentModel);
-            var newItem = new CardEnrollmentModel();
+            var newItem = new CardEnrollmentRequestModel();
             if (isValidate)
             {
                 return newItem;
@@ -25,7 +26,7 @@ namespace BLL.Services
             return newItem;
         }
 
-        public bool validateCardData(CardEnrollmentModel employeeAddRequest)
+        public bool validateCardData(CardEnrollmentRequestModel employeeAddRequest)
         {
             return true;
         }

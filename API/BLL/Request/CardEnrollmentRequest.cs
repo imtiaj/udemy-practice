@@ -1,14 +1,14 @@
 ﻿using System;
 using FluentValidation;
 
-namespace DLL.RequestResponse
+namespace BLL.RequestResponse
 {
     public class CardEnrollmentRequestModel
     {
         public string deviceID { get; set; }
         public string cvminfo { get; set; }
         public string pin { get; set; }
-    
+
     }
 
     public class CardEnrollmentRequestModelValidator : AbstractValidator<CardEnrollmentRequestModel>
@@ -20,7 +20,7 @@ namespace DLL.RequestResponse
             RuleFor(x => x.deviceID).NotNull();
             RuleFor(x => x.cvminfo).NotNull();
             RuleFor(x => x.pin).NotNull();
-            
+
         }
 
         //private async Task<bool> TransactionTypeActive(string transactionType, CancellationToken token)

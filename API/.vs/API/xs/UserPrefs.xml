@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{3B05AFFB-1FE2-406C-9BEF-FAC2EA66905D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BLL/Request/EmployeeAddRequest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BLL/Services/ICardEnrollmentService.cs">
     <Files>
-      <File FileName="API/Controllers/UpiCardEnrollmentController.cs" Line="22" Column="96" />
-      <File FileName="DLL/RequestResponse/CardEnrollmentRequestModel.cs" Line="23" Column="13" />
+      <File FileName="API/Controllers/UpiCardEnrollmentController.cs" Line="26" Column="62" />
       <File FileName="DLL/Models/CardEnrollmentModel.cs" />
-      <File FileName="BLL/Request/EmployeeAddRequest.cs" Line="1" Column="1" />
+      <File FileName="BLL/Request/EmployeeAddRequest.cs" Line="56" Column="1" />
+      <File FileName="API/Controllers/EmployeeController.cs" Line="38" Column="40" />
+      <File FileName="BLL/Request/CardEnrollmentRequest.cs" Line="30" Column="10" />
+      <File FileName="BLL/Services/ICardEnrollmentService.cs" Line="13" Column="83" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,17 +16,14 @@
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="BLL" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Request" expanded="True">
-                <Node name="EmployeeAddRequest.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Request" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ICardEnrollmentService.cs" selected="True" />
               </Node>
             </Node>
             <Node name="DLL" expanded="True">
-              <Node name="Models" expanded="True" />
               <Node name="Repository" expanded="True" />
-              <Node name="RequestResponse" expanded="True" />
             </Node>
           </Node>
         </State>
