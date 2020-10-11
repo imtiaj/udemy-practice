@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Core Practice\\udemy-practice\\API\\API\\API.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Core Practice\\udemy-practice\\API\\API\\API.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Core Practice\\udemy-practice\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Core Practice\\udemy-practice\\API\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\R041411013\\.nuget\\packages\\",
-        "outputPath": "E:\\Core Practice\\udemy-practice\\API\\API\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\R041411013\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj": {
-                "projectPath": "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj"
+              "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj"
               },
-              "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj": {
-                "projectPath": "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj"
+              "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj"
+              },
+              "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj"
               }
             }
           }
@@ -48,6 +51,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
               "version": "[4.1.1, )"
@@ -87,24 +98,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "E:\\Core Practice\\udemy-practice\\API\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\R041411013\\.nuget\\packages\\",
-        "outputPath": "E:\\Core Practice\\udemy-practice\\API\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\R041411013\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +128,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj": {
-                "projectPath": "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj"
+              "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj"
+              },
+              "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj"
               }
             }
           }
@@ -159,24 +173,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj",
         "projectName": "DLL",
-        "projectPath": "E:\\Core Practice\\udemy-practice\\API\\DLL\\DLL.csproj",
-        "packagesPath": "C:\\Users\\R041411013\\.nuget\\packages\\",
-        "outputPath": "E:\\Core Practice\\udemy-practice\\API\\DLL\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\DLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\DLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\R041411013\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,7 +250,62 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using API.Middleware;
 using BLL;
 using DLL.DbContext;
 using DLL.Repository;
@@ -72,8 +73,16 @@ namespace API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMiddleware<ExceptionMiddleware>();
+
+            app.UseCors(options =>
+            options.WithOrigins("http://localhost:4200/")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowAnyOrigin());
+
             /* STARTS enabling swagger api documentation */
-            
+
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BLL.Services;
+using BLL.Request;
 using DLL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using BLL.RequestResponse;
 
 namespace API.Controllers
 {
@@ -19,9 +21,9 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CardEnrollment(CardEnrollmentModel cardEnrollmentModel)
+        public async Task<IActionResult> CardEnrollment(CardEnrollmentRequestModel cardEnrollmentRequestModel)
         {
-            return Ok(await _cardEnrollmentService.cardEnrollmentProcess(cardEnrollmentModel));
+            return Ok(await _cardEnrollmentService.cardEnrollmentProcess(cardEnrollmentRequestModel));
         }
     }
 }
