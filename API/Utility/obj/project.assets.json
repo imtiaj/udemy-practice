@@ -8,30 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\R041411013\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/asifnewaz/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Core Practice\\udemy-practice\\API\\Utility\\Utility.csproj",
+      "projectUniqueName": "/Users/asifnewaz/Project/DotNet/FromGit/API/Utility/Utility.csproj",
       "projectName": "Utility",
-      "projectPath": "E:\\Core Practice\\udemy-practice\\API\\Utility\\Utility.csproj",
-      "packagesPath": "C:\\Users\\R041411013\\.nuget\\packages\\",
-      "outputPath": "E:\\Core Practice\\udemy-practice\\API\\Utility\\obj\\",
+      "projectPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/Utility/Utility.csproj",
+      "packagesPath": "/Users/asifnewaz/.nuget/packages/",
+      "outputPath": "/Users/asifnewaz/Project/DotNet/FromGit/API/Utility/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\R041411013\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/asifnewaz/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }
