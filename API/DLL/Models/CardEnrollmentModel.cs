@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DLL.RequestResponseModel;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,19 +7,10 @@ namespace DLL.Models
 {
     public class CardEnrollmentModel
     {
-        public Msginfo msgInfo { get; set; }
+        public MsginfoModel msgInfo { get; set; }
         public Trxinfo trxInfo { get; set; }
         public MsgResponse msgResponse { get; set; }
-    }
-
-    public class Msginfo
-    {
-        public string versionNo { get; set; }
-        public string msgID { get; set; }
-        public string timeStamp { get; set; }
-        public string msgType { get; set; }
-        public string insID { get; set; }
-    }
+    }    
 
     public class Trxinfo
     {
