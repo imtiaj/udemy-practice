@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BLL.Services;
-using BLL.Request;
 using DLL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using BLL.RequestResponse;
+using BLL.RequestResponseValidator;
+using DLL.RequestResponseModel;
 
 namespace API.Controllers
 {

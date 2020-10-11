@@ -1,0 +1,11 @@
+E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
+E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.json
+E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.runtimeconfig.dev.json
+E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.dll
+E:\Core Practice\udemy-practice\API\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.dll
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.pdb
+E:\Core Practice\udemy-practice\API\DLL\obj\Debug\netcoreapp3.1\DLL.genruntimeconfig.cache

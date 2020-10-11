@@ -1,4 +1,4 @@
-﻿using BLL.Request;
+﻿using BLL.RequestResponseValidator;
 using BLL.Services;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
