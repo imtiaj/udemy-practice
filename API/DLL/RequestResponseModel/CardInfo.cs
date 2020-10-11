@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DLL.Models
+namespace DLL.RequestResponseModel
 {
     //API to AppGateway 1.3.12 
     public class CardInfo

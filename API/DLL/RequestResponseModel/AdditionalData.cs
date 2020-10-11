@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DLL.Models
+namespace DLL.RequestResponseModel
 {
     public class AdditionalData
     {
