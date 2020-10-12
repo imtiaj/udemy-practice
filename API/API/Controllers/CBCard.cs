@@ -39,5 +39,12 @@ namespace API.Controllers
             return Ok(result);
         }
 
+        [HttpPost("GetCashOutToken")]
+        public async Task<IActionResult> GetCashOutToken(CashOutTokenRequest requestModel)
+        {
+            var result = await _cbCardService.GetCashOutTokenProcessAsync(requestModel);
+            return Ok(result);
+        }
+
     }
 }
