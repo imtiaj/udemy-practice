@@ -1,12 +1,10 @@
 ﻿using System;
 namespace DLL.RequestResponseModel
 {
-    public class UPIDebitTransactionResponse
+    public class UPIDebitTransactionResponse: UPIBaseResponse
     {
-        public MsginfoModel msgInfo { get; set; }
 
         public DebitTransactionInformation trxInfo { get; set; }
-
-        public MsgResponseModel msgResponse { get; set; }
     }
+
 }
