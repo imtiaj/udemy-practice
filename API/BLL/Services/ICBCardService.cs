@@ -6,22 +6,22 @@ namespace BLL.Services
 {
     public interface ICBCardService
     {
-        Task<UPICreditTransactionResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPIDebitTransactionRequest);
-        Task<UPIDebitTransactionResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest);
+        Task<UPIBaseResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPIDebitTransactionRequest);
+        Task<UPIBaseResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest);
     }
 
     public class CBCardService: ICBCardService
     {
-        public async Task<UPICreditTransactionResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPIDebitTransactionRequest)
+        public async Task<UPIBaseResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPIDebitTransactionRequest)
         {
-            var newItem = new UPICreditTransactionResponse();
+            var newItem = new UPIBaseResponse();
         
             return newItem;
         }
 
-        public async Task<UPIDebitTransactionResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest)
+        public async Task<UPIBaseResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest)
         {
-            var newItem = new UPIDebitTransactionResponse();
+            var newItem = new UPIBaseResponse();
 
             return newItem;
         }
