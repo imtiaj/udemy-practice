@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DLL.RequestResponseModel
 {
-    public class TransactionResultNotificationRequestModel
+    public class UPITransactionResultNotificationRequestModel
     {
         public MsginfoModel msgInfo { get; set; }
         public TrxResultNotifyTrxInfoModel TrxResultNotifyTrxInfoModel { get; set; }

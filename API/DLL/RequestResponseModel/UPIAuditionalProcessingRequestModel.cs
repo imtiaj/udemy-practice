@@ -5,7 +5,7 @@ using System.Text;
 namespace DLL.RequestResponseModel
 {
     /* API to AppGateway 2.15 */
-    public class AuditionalProcessingRequestModel
+    public class UPIAuditionalProcessingRequestModel
     {
         public MsginfoModel msgInfo { get; set; }
         public AuditionalProcessingTrxInfoModel auditionalProcessingTrxInfoModel { get; set; }
