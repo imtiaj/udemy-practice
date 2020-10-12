@@ -1,14 +1,14 @@
 ﻿using System;
 namespace DLL.RequestResponseModel
 {
-    public class AccountBalanceInquiryRequest
+    public class UPIAccountBalanceInquiryRequest
     {
         public MsginfoModel msgInfo { get; set; }
 
-        public AccountBalanceInquiryTrxInfo trxInfo { get; set; }
+        public UPIAccountBalanceInquiryTrxInfo trxInfo { get; set; }
     }
 
-    public class AccountBalanceInquiryTrxInfo
+    public class UPIAccountBalanceInquiryTrxInfo
     {
         public AccountInfoModel accountInfo { get; set; }
         public BalanceItem[] balList { get; set; }

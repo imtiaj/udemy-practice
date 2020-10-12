@@ -1,13 +1,13 @@
 ﻿using System;
 namespace DLL.RequestResponseModel
 {
-    public class CashOutTokenRequest
+    public class UPICashOutTokenRequest
     {
         public MsginfoModel msgInfo { get; set; }
-        public CashOutTokenTrxInfo trxInfo { get; set; }
+        public UPICashOutTokenTrxInfo trxInfo { get; set; }
     }
 
-    public class CashOutTokenTrxInfo
+    public class UPICashOutTokenTrxInfo
     {
         public string trxTokenType { get; set; }
         public string trxToken { get; set; }
@@ -18,10 +18,10 @@ namespace DLL.RequestResponseModel
         public string referNo { get; set; }
     }
 
-    public class CashOutTokenResponse
+    public class UPICashOutTokenResponse
     {
         public MsginfoModel msgInfo { get; set; }
-        public CashOutTokenTrxInfo trxInfo { get; set; }
+        public UPICashOutTokenTrxInfo trxInfo { get; set; }
         public MsgResponseModel msgResponse { get; set; }
     }
 }

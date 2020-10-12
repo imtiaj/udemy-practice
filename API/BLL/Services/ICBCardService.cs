@@ -6,16 +6,18 @@ namespace BLL.Services
 {
     public interface ICBCardService
     {
-        Task<UPIBaseResponse> AccountBalanceInquiryProcessAsync(AccountBalanceInquiryRequest accountBalanceInquiryRequest);
+        Task<UPIBaseResponse> AccountBalanceInquiryProcessAsync(UPIAccountBalanceInquiryRequest accountBalanceInquiryRequest);
         Task<UPIBaseResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPICreditTransactionRequest);
         Task<UPIBaseResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest);
-        Task<UPIBaseResponse> GetCashOutTokenProcessAsync(CashOutTokenRequest cashOutTokenRequest);
+        Task<UPIBaseResponse> GetCashOutTokenProcessAsync(UPICashOutTokenRequest cashOutTokenRequest);
+        Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest cashOutTokenRequest);
+
 
     }
 
     public class CBCardService: ICBCardService
     {
-        public async Task<UPIBaseResponse> AccountBalanceInquiryProcessAsync(AccountBalanceInquiryRequest accountBalanceInquiryRequest)
+        public async Task<UPIBaseResponse> AccountBalanceInquiryProcessAsync(UPIAccountBalanceInquiryRequest accountBalanceInquiryRequest)
         {
             var newItem = new UPIBaseResponse();
 
@@ -36,7 +38,14 @@ namespace BLL.Services
             return newItem;
         }
 
-        public async Task<UPIBaseResponse> GetCashOutTokenProcessAsync(CashOutTokenRequest cashOutTokenRequest)
+        public async Task<UPIBaseResponse> GetCashOutTokenProcessAsync(UPICashOutTokenRequest cashOutTokenRequest)
+        {
+            var newItem = new UPIBaseResponse();
+
+            return newItem;
+        }
+
+        public async Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest cashOutTokenRequest)
         {
             var newItem = new UPIBaseResponse();
 

@@ -19,7 +19,7 @@ namespace API.Controllers
         }
 
         [HttpPost("AccountBalanceInquiry")]
-        public async Task<IActionResult> AccountBalanceInquiry(AccountBalanceInquiryRequest requestModel)
+        public async Task<IActionResult> AccountBalanceInquiry(UPIAccountBalanceInquiryRequest requestModel)
         {
             var result = await _cbCardService.AccountBalanceInquiryProcessAsync(requestModel);
             return Ok(result);
@@ -40,11 +40,18 @@ namespace API.Controllers
         }
 
         [HttpPost("GetCashOutToken")]
-        public async Task<IActionResult> GetCashOutToken(CashOutTokenRequest requestModel)
+        public async Task<IActionResult> GetCashOutToken(UPICashOutTokenRequest requestModel)
         {
             var result = await _cbCardService.GetCashOutTokenProcessAsync(requestModel);
             return Ok(result);
         }
 
+        [HttpPost("KycVerification")]
+        public async Task<IActionResult> KycVerification(UPIKycVerificationRequest requestModel)
+        {
+            var result = await _cbCardService.KycVerificationProcessAsync(requestModel);
+            return Ok(result);
+        }
+        
     }
 }
