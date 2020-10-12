@@ -1,26 +1,24 @@
 ﻿using System;
 namespace DLL.RequestResponseModel
 {
-    public class UPIDebitTransactionRequest
+    public class UPICreditTransactionRequest
     {
-        
         public MsginfoModel msgInfo { get; set; }
 
-        public DebitTransactionInformation trxInfo { get; set; }
- 
+        public CreditTransactionInformation trxInfo { get; set; }
     }
 
-    public class DebitTransactionInformation
+    public class CreditTransactionInformation
     {
         //length: 17-49, Format: AN, Reuest: O, 
         public String relTrxMsgID { get; set; }
         public string relTrxType { get; set; }  //length: 1-50, Format: ANS, Reuest: O, valid values: "MPQRC_PAYMENT", "CPQRC_PAYMENT", "BILL_PAYMENT", "DISPUTE", "AUTH_COMPLETION".
         public string authID { get; set; }  //length: 6, Format: AN, Reuest: C, 
-        public string otpKey { get; set; }
-        public string otpValue { get; set; }
+        public string origMsgID { get; set; }
+        public string origMsgType { get; set; }
         public MerchantInfoModel merchantInfo { get; set; }
         public string onUsFlag { get; set; }
-        public AccountInfoModel debitAccountInfo { get; set; }
+        public AccountInfoModel creditAccountInfo { get; set; }
         public string trxAmt { get; set; }
         public string trxCurrency { get; set; }
         public DiscountDetail discountDetails { get; set; }  // Enccrypted
@@ -43,5 +41,4 @@ namespace DLL.RequestResponseModel
         public string referNo { get; set; }
         public string msgResponse { get; set; }
     }
-
 }
