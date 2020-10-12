@@ -11,6 +11,5 @@ namespace DLL.RequestResponseModel
 
         //Available Amount, length: 1-13, ANS, Mandatory
         public string AvailableAmt { get; set; }
-
     }
 }
