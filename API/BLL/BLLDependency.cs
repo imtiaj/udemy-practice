@@ -1,5 +1,6 @@
 ﻿using BLL.RequestResponseValidator;
 using BLL.Services;
+using DLL.RequestResponseModel;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -14,6 +15,8 @@ namespace BLL
         {
             services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<IValidator<EmployeeAddRequest>, EmployeeAddRequestValidator>();
+            services.AddTransient<ICBCardService, CBCardService>();
+            services.AddTransient<IValidator<UPIDebitTransactionRequest>, UPIDebitTransactionRequestValidator>();
         }
     }
 }

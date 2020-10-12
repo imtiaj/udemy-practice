@@ -2,21 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL.Services;
+using DLL.RequestResponseModel;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace API.Controllers
 {
     public class CBCard : ApiBaseController
     {
+        private readonly ICBCardService _cbCardService;
 
+        public CBCard(ICBCardService cbCardService)
+        {
+            _cbCardService = cbCardService;
+        }
 
         [HttpPost("DebitTransaction")]
-        public async Task<IActionResult> DebitTransaction([FromForm] HoldMovieTicketRequestModel requestModel)
+        public async Task<IActionResult> DebitTransaction(UPIDebitTransactionRequest requestModel)
         {
-            requestModel.User = User;
-            var result = await _movieService.HoldMovieTicket(requestModel);
+            var result = await _cbCardService.DebitTransactionProcessAsync(requestModel);
             return Ok(result);
         }
 
