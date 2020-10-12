@@ -21,7 +21,7 @@ namespace API.Controllers
         [HttpPost("AccountBalanceInquiry")]
         public async Task<IActionResult> AccountBalanceInquiry(AccountBalanceInquiryRequest requestModel)
         {
-            var result = await _cbCardService.CreditTransactionProcessAsync(requestModel);
+            var result = await _cbCardService.AccountBalanceInquiryProcessAsync(requestModel);
             return Ok(result);
         }
 
