@@ -18,6 +18,13 @@ namespace API.Controllers
             _cbCardService = cbCardService;
         }
 
+        [HttpPost("AccountBalanceInquiry")]
+        public async Task<IActionResult> AccountBalanceInquiry(AccountBalanceInquiryRequest requestModel)
+        {
+            var result = await _cbCardService.CreditTransactionProcessAsync(requestModel);
+            return Ok(result);
+        }
+
         [HttpPost("CreditTransaction")]
         public async Task<IActionResult> CreditTransaction(UPICreditTransactionRequest requestModel)
         {
