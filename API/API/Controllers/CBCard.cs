@@ -18,6 +18,13 @@ namespace API.Controllers
             _cbCardService = cbCardService;
         }
 
+        [HttpPost("CreditTransaction")]
+        public async Task<IActionResult> CreditTransaction(UPICreditTransactionRequest requestModel)
+        {
+            var result = await _cbCardService.CreditTransactionProcessAsync(requestModel);
+            return Ok(result);
+        }
+
         [HttpPost("DebitTransaction")]
         public async Task<IActionResult> DebitTransaction(UPIDebitTransactionRequest requestModel)
         {
