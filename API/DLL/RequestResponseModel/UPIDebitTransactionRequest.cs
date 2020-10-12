@@ -41,7 +41,6 @@ namespace DLL.RequestResponseModel
         public string traceNum { get; set; }
         public string appOrderNo { get; set; }
         public string referNo { get; set; }
-        public string msgResponse { get; set; }
     }
 
 }

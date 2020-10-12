@@ -52,6 +52,13 @@ namespace API.Controllers
             var result = await _cbCardService.KycVerificationProcessAsync(requestModel);
             return Ok(result);
         }
-        
+
+        [HttpPost("MerchantVerification")]
+        public async Task<IActionResult> MerchantVerification(UPIMerchantVerificationRequest requestModel)
+        {
+            var result = await _cbCardService.MerchantVerificationProcessAsync(requestModel);
+            return Ok(result);
+        }
+
     }
 }

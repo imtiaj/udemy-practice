@@ -10,8 +10,8 @@ namespace BLL.Services
         Task<UPIBaseResponse> CreditTransactionProcessAsync(UPICreditTransactionRequest uPICreditTransactionRequest);
         Task<UPIBaseResponse> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest);
         Task<UPIBaseResponse> GetCashOutTokenProcessAsync(UPICashOutTokenRequest cashOutTokenRequest);
-        Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest cashOutTokenRequest);
-
+        Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest uPIKycVerificationRequest);
+        Task<UPIBaseResponse> MerchantVerificationProcessAsync(UPIMerchantVerificationRequest uPIMerchantVerificationRequest);
 
     }
 
@@ -45,7 +45,14 @@ namespace BLL.Services
             return newItem;
         }
 
-        public async Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest cashOutTokenRequest)
+        public async Task<UPIBaseResponse> KycVerificationProcessAsync(UPIKycVerificationRequest uPIKycVerificationRequest)
+        {
+            var newItem = new UPIBaseResponse();
+
+            return newItem;
+        }
+
+        public async Task<UPIBaseResponse> MerchantVerificationProcessAsync(UPIMerchantVerificationRequest uPIMerchantVerificationRequest)
         {
             var newItem = new UPIBaseResponse();
 
