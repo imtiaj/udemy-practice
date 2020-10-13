@@ -60,5 +60,33 @@ namespace API.Controllers
             return Ok(result);
         }
 
+        [HttpPost("OpenAccount")]
+        public async Task<IActionResult> OpenAccount(UPIOpenAccountRequestModel requestModel)
+        {
+            var result = await _cbCardService.OpenAccount(requestModel);
+            return Ok(result);
+        }
+        
+        [HttpPost("P2PTransfer")]
+        public async Task<IActionResult> P2PTransfer(UPIP2PRequestModel requestModel)
+        {
+            var result = await _cbCardService.P2PTransfer(requestModel);
+            return Ok(result);
+        }
+
+        [HttpPost("ReversalTransaction")]
+        public async Task<IActionResult> ReversalTransaction(UPIReversalTransactionRequestModel requestModel)
+        {
+            var result = await _cbCardService.ReversalTransaction(requestModel);
+            return Ok(result);
+        }
+        
+        [HttpPost("TransactionInquiry")]
+        public async Task<IActionResult> TransactionInquiry(UPITransactionInquiryRequestModel requestModel)
+        {
+            var result = await _cbCardService.TransactionInquiry(requestModel);
+            return Ok(result);
+        }
+
     }
 }
