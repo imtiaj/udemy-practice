@@ -12,6 +12,10 @@
 /Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CopyComplete
 /Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.dll
 /Users/asifnewaz/Project/DotNet/FromGit/API/BLL/obj/Debug/netcoreapp3.1/BLL.pdb
+E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.dll
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
@@ -19,10 +23,6 @@ E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\DLL.dll
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\Utility.dll
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\DLL.pdb
 E:\Core Practice\udemy-practice\API\BLL\bin\Debug\netcoreapp3.1\Utility.pdb
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
-E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 E:\Core Practice\udemy-practice\API\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

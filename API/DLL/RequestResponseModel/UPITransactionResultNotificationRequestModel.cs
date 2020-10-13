@@ -7,7 +7,7 @@ namespace DLL.RequestResponseModel
     public class UPITransactionResultNotificationRequestModel
     {
         public MsginfoModel msgInfo { get; set; }
-        public TrxResultNotifyTrxInfoModel TrxResultNotifyTrxInfoModel { get; set; }
+        public TrxResultNotifyTrxInfoModel trxResultNotifyTrxInfoModel { get; set; }
     }
 
     public class TrxResultNotifyTrxInfoModel
