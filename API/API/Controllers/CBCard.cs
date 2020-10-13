@@ -18,6 +18,13 @@ namespace API.Controllers
             _cbCardService = cbCardService;
         }
 
+        [HttpPost("AccountBalanceInquiry")]
+        public async Task<IActionResult> AccountBalanceInquiry(UPIAccountBalanceInquiryRequest requestModel)
+        {
+            var result = await _cbCardService.AccountBalanceInquiryProcessAsync(requestModel);
+            return Ok(result);
+        }
+
         [HttpPost("CreditTransaction")]
         public async Task<IActionResult> CreditTransaction(UPICreditTransactionRequest requestModel)
         {
@@ -29,6 +36,27 @@ namespace API.Controllers
         public async Task<IActionResult> DebitTransaction(UPIDebitTransactionRequest requestModel)
         {
             var result = await _cbCardService.DebitTransactionProcessAsync(requestModel);
+            return Ok(result);
+        }
+
+        [HttpPost("GetCashOutToken")]
+        public async Task<IActionResult> GetCashOutToken(UPICashOutTokenRequest requestModel)
+        {
+            var result = await _cbCardService.GetCashOutTokenProcessAsync(requestModel);
+            return Ok(result);
+        }
+
+        [HttpPost("KycVerification")]
+        public async Task<IActionResult> KycVerification(UPIKycVerificationRequest requestModel)
+        {
+            var result = await _cbCardService.KycVerificationProcessAsync(requestModel);
+            return Ok(result);
+        }
+
+        [HttpPost("MerchantVerification")]
+        public async Task<IActionResult> MerchantVerification(UPIMerchantVerificationRequest requestModel)
+        {
+            var result = await _cbCardService.MerchantVerificationProcessAsync(requestModel);
             return Ok(result);
         }
 
