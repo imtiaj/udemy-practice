@@ -1,16 +1,9 @@
 ﻿using System;
+using DLL.RequestResponseModel;
 using FluentValidation;
 
-namespace BLL.RequestResponse
+namespace BLL.RequestResponseValidator
 {
-    public class CardEnrollmentRequestModel
-    {
-        public string deviceID { get; set; }
-        public string cvminfo { get; set; }
-        public string pin { get; set; }
-
-    }
-
     public class CardEnrollmentRequestModelValidator : AbstractValidator<CardEnrollmentRequestModel>
     {
         private readonly IServiceProvider _serviceProvider;

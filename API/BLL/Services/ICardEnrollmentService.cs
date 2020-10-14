@@ -1,5 +1,6 @@
-﻿using BLL.RequestResponse;
+﻿using BLL.RequestResponseValidator;
 using DLL.Models;
+using DLL.RequestResponseModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
