@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Pv4VWnD+zH9Bqd0Kj8WLs6N/lte79Abc1TFkTWuS2KQAQqO1LSFIRrftuBjJ/VHohGvWn7nRC+VSCeAtZUEbQ==",
+  "dgSpecHash": "TQwKUHjuy0oCNXnWDCs1crPVs+2/obmy/yCvNnBzK4Ti0Ju/kVwZufZ/Js5fNF5q8GDzcYSwxv0cCnMcGYmOfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\PracticeProject\\API\\Utility\\Utility.csproj",
+  "projectFilePath": "/Users/asifnewaz/Project/DotNet/FromGit/API/Utility/Utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

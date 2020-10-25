@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    //App Gateway
     public class CBW : ApiBaseController
     {
         private readonly ICBWService _cBWService;
