@@ -8,6 +8,8 @@ namespace Utility.SocketClient
     public static class SocketClient
     {
 
+        //comment
+
 
         public static Socket StartSocketClient(string serverAddress, int port)
         {
