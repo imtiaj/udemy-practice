@@ -18,12 +18,12 @@ namespace DLL.RequestResponseModel
         public string authID { get; set; }  //length: 6, Format: AN, Reuest: C, 
         public string otpKey { get; set; }
         public string otpValue { get; set; }
-        //public MerchantInfoModel merchantInfo { get; set; }
+        public MerchantInfoModel merchantInfo { get; set; }
         public string onUsFlag { get; set; }
-        //public AccountInfoModel debitAccountInfo { get; set; }
+        public string debitAccountInfo { get; set; }
         public string trxAmt { get; set; }
         public string trxCurrency { get; set; }
-        //public DiscountDetail discountDetails { get; set; }  // Enccrypted
+        public DiscountDetail discountDetails { get; set; }  // Enccrypted
         public string billAmt { get; set; }
         public string billCurrency { get; set; }
         public string markupAmt { get; set; }

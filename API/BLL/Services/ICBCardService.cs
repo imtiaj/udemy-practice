@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using DLL.RequestResponseModel;
+using Utility.Helpers;
+using Utility.SocketClient;
 
 namespace BLL.Services
 {
@@ -52,6 +54,31 @@ namespace BLL.Services
 
         public async Task<UPIBaseResponseGenerics<DebitTransactionInformation>> DebitTransactionProcessAsync(UPIDebitTransactionRequest uPIDebitTransactionRequest)
         {
+            var msgInfo = uPIDebitTransactionRequest.msgInfo;
+            if (msgInfo.msgType == "DEBIT_TRANSACTION")
+            {
+                var trncInfo = uPIDebitTransactionRequest.trxInfo;
+                var debitAccInfo = trncInfo.debitAccountInfo;
+                if(debitAccInfo != null || debitAccInfo != "")
+                {
+                    var serverAddress = "127.0.0.1";
+                    var port = 5001;
+
+                    //Verify Signature
+                    //Format: "JWSSignatureVerify-detachedJwsContent-Payload-Publickey"
+                    var socket = SocketClient.StartSocketClient(serverAddress, port);
+
+                    var typeForVerify = "ParseJWEContent";
+                    var privateKey = KeyManager.getPrivateKey();
+                    string parsedJWEContent = SocketClient.ParseJWEContent(socket, typeForVerify, debitAccInfo, privateKey);
+                    var serializer = new Serializer();
+                    var deserializeData = serializer.Deserialize<AccountInfoModel>(parsedJWEContent);
+                }
+            }
+            else
+            {
+                // transaction type not valid.
+            }
             var responseObj = new UPIBaseResponseGenerics<DebitTransactionInformation>()
             {
                 msgInfo = uPIDebitTransactionRequest.msgInfo,
