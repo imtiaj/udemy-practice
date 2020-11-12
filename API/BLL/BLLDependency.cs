@@ -16,7 +16,7 @@ namespace BLL
             services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<IValidator<EmployeeAddRequest>, EmployeeAddRequestValidator>();
             services.AddTransient<ICBCardService, CBCardService>();
-            services.AddTransient<IValidator<UPIDebitTransactionRequest>, UPIDebitTransactionRequestValidator>();
+            //services.AddTransient<IValidator<UPIDebitTransactionRequest>, UPIDebitTransactionRequestValidator>();
             
             services.AddTransient<ICBWService, CBWService>();
         }

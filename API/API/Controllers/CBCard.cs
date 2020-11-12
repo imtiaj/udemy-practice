@@ -41,18 +41,24 @@ namespace API.Controllers
             if (Request.Headers.TryGetValue("UPI-JWS", out var traceValue))
             {
                 signature = traceValue.FirstOrDefault();
-            }           
+            }
 
-
+            MsginfoModel msginfoModel = new MsginfoModel();
+            msginfoModel.msgID = "123456";
+            msginfoModel.versionNo = "1.0";
+            msginfoModel.msgType = "Debit_Transaction";
+            msginfoModel.timeStamp = "1234567890";
+            msginfoModel.insID = "111111";
+            var json = JsonConvert.SerializeObject(msginfoModel);
             var serverAddress = "127.0.0.1";
-            var port = 5001;
+            var port = 5002;
 
             //Verify Signature
             //Format: "JWSSignatureVerify-detachedJwsContent-Payload-Publickey"
             var socket = SocketClient.StartSocketClient(serverAddress, port);
 
             var typeForVerify = "JWSSignatureVerify";
-            var payloadForVerify = "";
+            var payloadForVerify = json;
             string detachedJwsContent = signature;
             var publickey = KeyManager.getPublicKey();
             bool isValidSignature = SocketClient.VerifyJWSSignature(socket, typeForVerify, payloadForVerify, detachedJwsContent, publickey);
